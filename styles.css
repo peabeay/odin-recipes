@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+div {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.heading {
+    display: block;
+    width: fit-content;
+color:azure;
+background-color:darkgray;
+border-width: 50px;
+margin: auto;
+margin-bottom: 50px;
+
+}
+.links a {
+    display: inline-block;
+    text-align: center;
+    background-color:coral;
+    border-width: 10px;
+    margin: auto;
+    padding: 20px;
+    border: 10px solid darkgrey;
+    text-decoration: none;
+    
+}
+.links a:hover {
+    background-color: darkred;
+    color:azure
+}
+
